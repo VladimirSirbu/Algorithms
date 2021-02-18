@@ -8,13 +8,13 @@ public class Main {
 
         Sort bubbleSort = new BubbleSort(intArray);
         bubbleSort.sort();
-        printArray(intArray);
+        bubbleSort.printArray();
     }
 
-    private static void printArray(int[] a) {
+    /*private static void printArray(int[] a) {
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }
         System.out.println();
-    }
+    }*/
 }

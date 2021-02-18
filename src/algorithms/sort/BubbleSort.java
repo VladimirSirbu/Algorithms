@@ -2,12 +2,10 @@ package algorithms.sort;
 
 import algorithms.Sort;
 
-public class BubbleSort implements Sort {
-
-    private int[] intArray;
+public class BubbleSort extends Sort {
 
     public BubbleSort(int[] array) {
-        this.intArray = array;
+        super(array);
     }
 
     @Override
