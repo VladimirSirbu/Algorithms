@@ -1,12 +1,12 @@
 package algorithms;
 
-import algorithms.sort.SelectionSort;
+import algorithms.sort.InsertionSort;
 
 public class Main {
     public static void main(String[] args) {
         int[] intArray = new int[]{20, 35, -15, 7, 55, 1, -22};
 
-        Sort sort = new SelectionSort(intArray);
+        Sort sort = new InsertionSort(intArray);
         sort.sort();
         sort.printArray();
     }
